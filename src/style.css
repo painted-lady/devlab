@@ -1,6 +1,9 @@
 body {
     position: relative;
     padding-top: 30px;
+    color: #515050;
+    font-family: Raleway, 'Lato', sans-serif;
+
 }
 
 .intro-image {
@@ -18,7 +21,7 @@ height: 70px;
 
 .project-link {
     background-color: #E3DCD8;
-    color: black;
+    color: #696969;
     width: 187px;
     height: 187px; 
     margin: auto; 
@@ -73,15 +76,15 @@ left: 20px;
 }
 
 .amazon-text, .intro-text {
-    font-family: Avenir, 'Lato', sans-serif;
-    color: black;
+    font-family: Raleway, 'Lato', sans-serif;
+    color: #696969;
     font-size: 18px;
     text-align: center;
 }
 
 .main-text {
-    font-family: Avenir, 'Lato', sans-serif;
-    color: black;
+    font-family: Raleway, 'Lato', sans-serif;
+    color: #696969;
     font-size: 18px;
     text-align: left;
 }
@@ -103,7 +106,7 @@ left: 20px;
 
 
 .center-navigation a, .center-navigation a:hover {
-    font-family: Avenir, 'Lato', sans-serif;
+    font-family: Raleway, 'Lato', sans-serif;
     font-size: 18px;
 }
 
@@ -130,7 +133,7 @@ margin-top: 0px;
 
 .cta {
     background-color: #979797;
-    font-family: Avenir, 'Lato', sans-serif;
+    font-family: Raleway, 'Lato', sans-serif;
     font-size: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -168,7 +171,7 @@ margin-top: 0px;
 }
 h1 {
     font-size: 18px;
-    font-family: Avenir, 'Lato', sans-serif;
+    font-family: Raleway, 'Lato', sans-serif;
     font-weight: medium;
 }
 
@@ -286,4 +289,79 @@ h1 {
 
 .toc-col {
     padding-right: 0px;
+}
+
+.number-circle {
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    background-color:#FF2A70; 
+    color: white;
+}
+
+.number-circle-alt {
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    background-color:#C13333; 
+    color: white;
+}
+
+.padding-columns{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.icon{
+width: 40px;
+height: 40px;
+}
+
+.flex{
+    display: flex;
+}
+
+.testimonials{
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+}
+
+.quote-project{
+    font-style: italic;
+    text-align:center;
+}
+
+.mockup img{
+    max-width: 100%;
+}
+
+.logo-title img{
+    max-width: 100%;
+}
+
+.max-100{
+    max-width: 100px;
+}
+
+.icon-container img {
+width: 40px;
+}
+
+.icon-container {
+margin-left: 10%;
+}
+
+.text-container {
+    padding-left: 30px;
+}
+
+[data-toggle="lightbox"] {
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
 }

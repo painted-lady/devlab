@@ -1,15 +1,25 @@
 ---
 layout: layout.html
 ---
+{% if logoTitle %}
+<div class="text-center margins logo-title">
+<img src="{{ logoTitle }}">
+</div>
+{% else %}
 <div class="row ">
     <div class="col-12 name-container name margins">
         {{ projectName }}
     </div>
 </div>
+{% endif %}
+{% if mockup %}
+<div class="mockup">
+    <img src="{{ mockup }}">
+</div>
+{% endif %}
 <div class="row">
-    <div class="col-12 intro-text margins">Built from scratch application which helps people find the best place to
-        eat
-        <br> based on the vibe of the place visualized by moodboards.
+    <div class="col-12 intro-text margins">
+        {{ projectDescription }}
     </div>
 </div>
 <div class="row">
