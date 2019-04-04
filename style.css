@@ -263,7 +263,7 @@ h1 {
 }
 
 #navbar-side a.active {
-    text-shadow: -0.06ex 0 #007bff, 0.06ex 0 #007bff;
+    text-shadow: -0.06ex 0 #5B3644, 0.06ex 0 #5B3644;
 }
 
 #navbar-side a {
@@ -334,7 +334,39 @@ height: 40px;
 .quote-project{
     font-style: italic;
     text-align:center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.quote-project:before {
+    content: "";
+    background: url("/images/quote 1.svg") no-repeat;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: -30px; 
+}
+
+.quote-project:after {
+    content: "";
+    background: url("/images/quote 2.svg") no-repeat;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    bottom: -30px; 
+}
+
+.project-amazon .quote-project:before {
+    background: url("/images/amazon/quote red.svg") no-repeat;
+}
+
+.project-amazon .quote-project:after {
+    background: url("/images/amazon/quote red2.svg") no-repeat;
+}
+
 
 .mockup img{
     max-width: 100%;
@@ -364,4 +396,23 @@ margin-left: 10%;
     cursor: -moz-zoom-in; 
     cursor: -webkit-zoom-in; 
     cursor: zoom-in;
+}
+
+.amazon-flow{
+width: 422px;
+position: absolute;
+top: 65px;
+left: 190px;
+}
+
+.nav-link{
+    color: #936D80;
+}
+
+.nav-link:hover{
+    color: #5B3644;
+}
+
+.table-of-contents h1{
+    color: #5B3644;
 }
