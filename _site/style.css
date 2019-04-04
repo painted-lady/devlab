@@ -416,3 +416,18 @@ left: 190px;
 .table-of-contents h1{
     color: #5B3644;
 }
+
+.ekko-lightbox.modal .modal-header {
+    height: 0;
+    border-bottom: 0;
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    padding-top: 0px;
+
+}
+
+.ekko-lightbox.modal .modal-header .close {
+    font-size: 3rem;
+    color: red;
+}
