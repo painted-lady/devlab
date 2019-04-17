@@ -440,3 +440,9 @@ left: 190px;
 .hashtags .nav-link {
     padding: .5rem .2rem;
 }
+
+.fake-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #936D80;
+}
