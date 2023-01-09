@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/painted-lady/devlab#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.6.0"
+    "@11ty/eleventy": "^1.0.2"
   }
 }
